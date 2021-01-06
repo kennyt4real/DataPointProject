@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NobleUI Responsive Bootstrap 4 Dashboard Template</title>-->
+    <!-- core:css -->
+    <!--<link rel="stylesheet" href="~/assets/vendors/core/core.css">-->
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- end plugin css for this page -->
+    <!-- inject:css -->
+    <!--<link rel="stylesheet" href="~/assets/fonts/feather-font/css/iconfont.css">
+    <link rel="stylesheet" href="~/assets/vendors/flag-icon-css/css/flag-icon.min.css">-->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <!--<link rel="stylesheet" href="~/assets/css/demo_1/style.css">-->
+    <!-- End layout styles -->
+    @*<link rel="shortcut icon" href="~/assets/favicon.ico" />*@
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
+
+    <link rel="stylesheet" href="~/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="~/assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/assets/libs/css/style.css">
+    <link rel="stylesheet" href="~/assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+                                    @RenderBody()
+   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+
+
+    <!-- core:js -->
+    @*<script src="~/assets/vendors/core/core.js"></script>*@
+    <!-- endinject -->
+    <!-- plugin js for this page -->
+    <!-- end plugin js for this page -->
+    <!-- inject:js -->
+    @*<script src="~/assets/vendors/feather-icons/feather.min.js"></script>
+    <script src="~/assets/js/template.js"></script>*@
+    <!-- endinject -->
+    <!-- custom js for this page -->
+    <!-- end custom js for this page -->
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>
